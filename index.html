@@ -1,0 +1,47 @@
+html
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Min Hemsida</title>
+    <link rel="stylesheet" href="style.css"> <!-- Länkar till CSS -->
+</head>
+<body>
+    <header>
+        <h1>Välkommen till Spirit food!</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Om oss</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>Om oss</h2>
+            <p>Välkommen till spirit food.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Kontakt</h2>
+            <form>
+                <label for="name">Namn:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">E-post:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <button type="submit">Skicka</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Min Hemsida</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- Länkar till JavaScript -->
+</body>
+</html>
